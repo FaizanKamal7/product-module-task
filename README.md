@@ -6,8 +6,8 @@ This project implements a module to fetch and normalize product data from variou
 ---
 
 ## Features
-- Fetch data from CSV, XML sources and flexibile for other sources.
-- - Utilized Strategy design pattern for flexible implementation
+- Fetch data from CSV, XML sources (you can upload the csv files for testing now) and flexibile for other sources.
+- Utilized Strategy design pattern for flexible implementation
 - Normalize data to include:
   - **Title**
   - **Manufacturer**
@@ -109,6 +109,8 @@ This project implements a module to fetch and normalize product data from variou
         return redirect()->route('products.index')->with('success', 'Products imported successfully!');
     }
 ```
+![image](https://github.com/user-attachments/assets/632fbfe5-381a-4fe8-a00c-98bfa35b54a6)
+![image](https://github.com/user-attachments/assets/95f37b4c-2d66-4884-8d2f-38fc129ba000)
 
 ---
 
